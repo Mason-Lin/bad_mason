@@ -3,6 +3,8 @@ A small sample to demo what python can do
 
 `bad_mason` is a a small sample to demo what python can do
 
+package
+
 
 ### Demo
 ```
@@ -35,6 +37,22 @@ or as a Module:
 ```
 $ pip install bad_mason
 ```
+
+### what's in site-packages
+```
+    Directory: C:\Users\<user>\AppData\Local\Programs\Python\<pythonver>\Lib\site-packages\bad_mason
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           7/10/2020  1:13 AM            374 __init__.py
+-a---           7/10/2020  1:13 AM             30 __main__.py
+-a---           7/10/2020  1:13 AM            552 covid19getter.py
+-a---           7/10/2020  1:13 AM           1674 datahelper.zip
+```
+
+#### what else can we do?
+- we could even change datahelper.zip to another name like `datahelper.dll` but it still can run by `python datahelper.dll`
+- we could `echo datahelper.zip >> spam.txt` and `chmod +x spam.txt` then `./spam.txt`
 
 
 ### Pack it
