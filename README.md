@@ -48,14 +48,14 @@ python setup.py sdist bdist_wheel
 
 ### Try to install locally
 ```
-python -m pip install -U .\dist\bad_mason-1.0.0-py3-none-any.whl
+python -m pip install -U .\dist\bad_mason-1.0.1-py3-none-any.whl
 ```
 
 
 ### Upload to PyPI
 ```
 python -m pip install twine
-twine upload dist/bad_mason-1.0.0-py3-none-any.whl
+twine upload dist/bad_mason-1.0.1-py3-none-any.whl
 ```
 
 
@@ -63,6 +63,6 @@ twine upload dist/bad_mason-1.0.0-py3-none-any.whl
 
 [MIT](https://github.com/Mason-Lin/bad_mason/blob/master/LICENSE)
 
-[version-badge]:   https://img.shields.io/badge/version-1.0.0-brightgreen.svg
+[version-badge]:   https://img.shields.io/badge/version-1.0.1-brightgreen.svg
 [version-link]:    https://pypi.python.org/pypi/bad_mason/
 [license-badge]:   https://img.shields.io/github/license/Mason-Lin/bad_mason.svg
