@@ -3,7 +3,10 @@ A small sample to demo what python can do
 
 `bad_mason` is a a small sample to demo what python can do
 
-package
+### Scan
+- [https://r.virscan.org/](https://r.virscan.org/language/zh-tw/report/8b9e95b54c90bb7c0d64d9304e826fce)
+- [https://www.virustotal.com/](https://www.virustotal.com/gui/file/b545b02903c14e25213290053bcb49af2ad016b93db81a698b73f63773d61af5/detection)
+- [https://metadefender.opswat.com/](https://metadefender.opswat.com/results/file/bzIwMDcwOWdHYngtc0lIbmVLakFjVi1JMjBO/regular/multiscan?lang=en)
 
 
 ### Demo
