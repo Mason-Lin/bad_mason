@@ -5,7 +5,17 @@ A small sample to demo what python can do
 
 
 ### Demo
+```
+CALL bad_mason -g
+or
+CALL python -m bad_mason -g
 
+DEMO!! You have been hacked
+=====5a8fWOxg/4=====
+Also write a hacked file in .ssh
+It could send it out to somewhere!!
+b'<!doctype html><html'
+```
 
 ### Usage
 
@@ -14,7 +24,10 @@ usage: bad_mason [-h] [-g]
 
 optional arguments:
   -h, --help         show this help message and exit
-  -g --get           get some data like covid-19 (fake)
+  -g, --get          get some data like covid-19 (fake)
+
+or as a Module:
+  python -m bad_mason -g
 ```
 
 ### Install
@@ -26,23 +39,23 @@ $ pip install bad_mason
 
 ### Pack it
 ```
-pip3 install setuptools
-pip3 install wheel
-
-python3 setup.py sdist bdist_wheel
+python -m pip install setuptools
+python -m pip install wheel
+python -m zipfile -c datahelper.zip .\datahelper\__init__.py .\datahelper\__main__.py .\datahelper\datahelper.py
+python setup.py sdist bdist_wheel
 ```
 
 
 ### Try to install locally
 ```
-pip3 install dist/bad_mason-<ver>-py3-none-any.whl
+python -m pip install -U .\dist\bad_mason-1.0.0-py3-none-any.whl
 ```
 
 
 ### Upload to PyPI
 ```
-pip3 install twine
-twine upload dist/bad_mason-<ver>-py3-none-any.whl
+python -m pip install twine
+twine upload dist/bad_mason-1.0.0-py3-none-any.whl
 ```
 
 
@@ -50,6 +63,6 @@ twine upload dist/bad_mason-<ver>-py3-none-any.whl
 
 [MIT](https://github.com/Mason-Lin/bad_mason/blob/master/LICENSE)
 
-[version-badge]:   https://img.shields.io/badge/version-0.1.5-brightgreen.svg
+[version-badge]:   https://img.shields.io/badge/version-1.0.0-brightgreen.svg
 [version-link]:    https://pypi.python.org/pypi/bad_mason/
 [license-badge]:   https://img.shields.io/github/license/Mason-Lin/bad_mason.svg

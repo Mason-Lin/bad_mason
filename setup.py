@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='bad_mason',
-    version='0.1.0',
+    version='1.0.0',
     author='Bad Mason',
     author_email='pizza.0117@gmail.com',
     description='fake get useful data but do something evil',
